@@ -1,5 +1,5 @@
 export function linearSearch(arr: number[], target: number): number {
-  // Can you solve this in one line?
+  return arr.findIndex(n => n === target);
 }
 
 export function binarySearch(arr: number[], target: number): number {
